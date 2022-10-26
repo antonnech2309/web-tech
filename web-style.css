@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+header {
+    border-bottom: 2px solid #000;
+}
+main {
+    display: flex;
+}
+.left-column {
+    width: 20%;
+    height: 100%;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid black;
+}
+.elements {
+    list-style: none;
+    margin: 10px;
+}
+.elements a{
+    text-decoration: none;
+}
+.align-menu {
+    display: flex;
+}
+.column {
+    align: center;
+}
+footer {
+    display: flex;
+    border-top: 2px solid #000;
+}
+footer p  {
+    margin-right: 50px;
+}
+.hover:hover {
+    color:coral;
+}
+.hover:active {
+    text-decoration: underline;
+}
