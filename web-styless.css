@@ -15,7 +15,6 @@ header a {
     color: rgb(212, 234, 175);
 }
 main {
-    display: flex;
     height: 100%;
 }
 .left-column {
@@ -117,3 +116,24 @@ footer p  {
     background-color: black;
     color: white;
 }
+.columns {
+    display: flex;
+}
+.rent {
+    display: flex;
+}
+#card {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 5px;
+}
+.add {
+    margin-right: 50px;
+}
+.rent input {
+    background-color: rgb(212, 234, 175);
+    border:none;
+    border-bottom: 3px solid #000;
+}
+
